@@ -1,0 +1,24 @@
+@import '../../utils/constants.scss';
+
+.timePeriods {
+  display: flex;
+  gap: toRem(40px);
+
+  &__el {
+    color: $lightGray;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      color: $mediumGray;
+    }
+    &_selected {
+      color: $darkBlue;
+
+      &:hover {
+        color: $darkBlue;
+      }
+    }
+  }
+}
