@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "startServer": "json-server --watch db.json --delay 1000"
+    "startServer": "json-server --watch db.json --delay 1000 --port 3004"
   },
   "dependencies": {
     "classnames": "^2.3.2",

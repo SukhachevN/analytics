@@ -42,7 +42,7 @@ export const timePeriods: ClickableItem[] = [
   },
 ];
 
-export const baseUrl = 'http://localhost:3000';
+export const baseUrl = 'http://localhost:3004';
 
 export type Icon = keyof Analytics;
 
