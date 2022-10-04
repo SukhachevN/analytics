@@ -42,8 +42,16 @@ const App = observer(() => {
   return (
     <main className='container'>
       <div className='container__controls'>
-        <Dropdown items={dropdownItems} onChange={setPipeline} />
-        <TimePeriods times={timePeriods} onChange={setPeriod} />
+        <Dropdown
+          items={dropdownItems}
+          onChange={setPipeline}
+          defaultValue={store.pipeline}
+        />
+        <TimePeriods
+          times={timePeriods}
+          onChange={setPeriod}
+          defaultValue={store.period}
+        />
       </div>
       <Analytics />
     </main>
