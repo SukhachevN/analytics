@@ -1,0 +1,43 @@
+@import '../../utils/constants.scss';
+
+.dropdown {
+  @include center();
+  gap: toRem(4px);
+  font-size: toRem(14px);
+  color: $dropdownBlack;
+  text-transform: capitalize;
+  cursor: pointer;
+
+  &_open {
+    svg {
+      transform: rotate(-180deg);
+      transition: 0.5s;
+    }
+  }
+
+  &__overlay {
+    width: toRem(167px);
+
+    ul {
+      height: toRem(182px);
+      background: $white;
+      box-shadow: 0px 0px 2px #eef4fe, 0px 1px 2px #d0daeb;
+      border-radius: toRem(7px);
+      padding: 0;
+    }
+
+    li {
+      background: $white;
+      height: toRem(34px);
+
+      &:hover {
+        background: $dropdownHover;
+      }
+    }
+
+    span {
+      color: $dropdownBlack;
+      background: transparent;
+    }
+  }
+}
