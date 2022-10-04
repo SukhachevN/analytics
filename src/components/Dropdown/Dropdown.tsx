@@ -23,7 +23,15 @@ const DropdownComponent: React.FC<DropdownProps> = memo(
 
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
-    const menu = <Menu onClick={({ key }) => onClick(key)} items={items} />;
+    const menu = (
+      <Menu
+        onClick={({ key }) => {
+          onClick(key);
+          setIsDropdownOpen(false);
+        }}
+        items={items}
+      />
+    );
 
     return (
       <Dropdown

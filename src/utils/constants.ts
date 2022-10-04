@@ -34,3 +34,5 @@ export const timePeriods: TimeItem[] = [
     label: 'Today',
   },
 ];
+
+export const baseUrl = 'http://localhost:3000';
