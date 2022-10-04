@@ -21,6 +21,8 @@ class Store {
   };
 
   getAnalytics = async () => {
+    this.isLoading = true;
+
     const params = new URLSearchParams();
     this.pipeline && params.append('pipeline', this.pipeline);
     this.period && params.append('period', this.period);
@@ -28,7 +30,10 @@ class Store {
     try {
       const response = await fetch(`${baseUrl}/analytics?${params}`);
       this.analytics = await response.json();
+      this.isLoading = false;
     } catch (e) {
+      this.analytics = null;
+      this.isLoading = false;
       alert('Enable JSON server: yarn startServer');
     }
   };
