@@ -182,6 +182,29 @@
     },
     {
       "pipeline": "sales",
+      "period": "all",
+      "result": {
+        "totalLeadsAndDeals": {
+          "number": 122,
+          "sum": 222
+        },
+        "totalTasks": 352,
+        "won": {
+          "number": 252,
+          "sum": 425
+        },
+        "completedTasks": 2,
+        "lost": {
+          "number": 4342,
+          "sum": 772
+        },
+        "expiredTasks": 2022,
+        "newLeads": 3332,
+        "noTasks": 4342
+      }
+    },
+    {
+      "pipeline": "sales",
       "period": "month",
       "result": {
         "totalLeadsAndDeals": {
@@ -274,6 +297,29 @@
     },
     {
       "pipeline": "marketing",
+      "period": "all",
+      "result": {
+        "totalLeadsAndDeals": {
+          "number": 42,
+          "sum": 52
+        },
+        "totalTasks": 52,
+        "won": {
+          "number": 52,
+          "sum": 252
+        },
+        "completedTasks": 592,
+        "lost": {
+          "number": 532,
+          "sum": 21772
+        },
+        "expiredTasks": 2722,
+        "newLeads": 832,
+        "noTasks": 212
+      }
+    },
+    {
+      "pipeline": "marketing",
       "period": "month",
       "result": {
         "totalLeadsAndDeals": {
@@ -362,6 +408,29 @@
         "expiredTasks": 360,
         "newLeads": 360,
         "noTasks": 460
+      }
+    },
+    {
+      "pipeline": "partners",
+      "period": "all",
+      "result": {
+        "totalLeadsAndDeals": {
+          "number": 21,
+          "sum": 2200
+        },
+        "totalTasks": 220,
+        "won": {
+          "number": 200,
+          "sum": 20
+        },
+        "completedTasks": 28020,
+        "lost": {
+          "number": 220,
+          "sum": 2120
+        },
+        "expiredTasks": 20,
+        "newLeads": 220,
+        "noTasks": 240
       }
     },
     {

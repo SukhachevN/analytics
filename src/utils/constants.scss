@@ -23,6 +23,12 @@ $smallScreen: 600px;
   align-items: center;
 }
 
+@mixin cleanButton {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
 @function toRem($size) {
   @return calc($size / 16px * 1rem);
 }

@@ -12,10 +12,9 @@ import {
   initialize,
 } from './store';
 import { Analytics } from '../components/Analytics';
-
-import 'antd/dist/antd.css';
-import './styles.scss';
 import { Spinner } from '../components/Spinner';
+
+import './styles.scss';
 
 const App = observer(() => {
   useEffect(() => {

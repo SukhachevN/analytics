@@ -1,17 +1,12 @@
 import { memo } from 'react';
 import cn from 'classnames';
 import { useHandleClickItem } from '../../utils/utils';
-import { ChangeHandler } from '../../utils/types';
+import { ChangeHandler, ClickableItem } from '../../utils/types';
 
 import styles from './styles.module.scss';
 
-export type TimeItem = {
-  key: string;
-  label: string;
-};
-
 type TimePeriodsProps = {
-  times: TimeItem[];
+  times: ClickableItem[];
   onChange: ChangeHandler;
   defaultValue?: string;
 };

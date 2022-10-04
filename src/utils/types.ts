@@ -2,6 +2,11 @@ export type StringOrNull = string | null;
 
 export type ChangeHandler = (newVal: string) => void;
 
+export type ClickableItem = {
+  key: string;
+  label: string;
+};
+
 export type WithSum = {
   number: number;
   sum: number;

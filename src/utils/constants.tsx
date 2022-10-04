@@ -1,5 +1,3 @@
-import { ItemType } from 'antd/lib/menu/hooks/useItems';
-import { TimeItem } from '../components/TimePeriods/TimePeriods';
 import { ReactComponent as TotalLeads } from '../assets/icons/totalLeadsAndDeals.svg';
 import { ReactComponent as TotalTasks } from '../assets/icons/totalTasks.svg';
 import { ReactComponent as Won } from '../assets/icons/won.svg';
@@ -8,9 +6,9 @@ import { ReactComponent as Lost } from '../assets/icons/lost.svg';
 import { ReactComponent as ExpiredTasks } from '../assets/icons/expiredTasks.svg';
 import { ReactComponent as NewLeads } from '../assets/icons/newLeads.svg';
 import { ReactComponent as NoTasks } from '../assets/icons/noTasks.svg';
-import { Analytics } from './types';
+import { Analytics, ClickableItem } from './types';
 
-export const dropdownItems: ItemType[] = [
+export const dropdownItems: ClickableItem[] = [
   {
     key: 'sales',
     label: 'Sales',
@@ -25,7 +23,7 @@ export const dropdownItems: ItemType[] = [
   },
 ];
 
-export const timePeriods: TimeItem[] = [
+export const timePeriods: ClickableItem[] = [
   {
     key: 'month',
     label: 'Months',
