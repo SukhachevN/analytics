@@ -1,0 +1,382 @@
+{
+  "analytics": {
+    "leadsAndDeals": {
+      "number": 1600,
+      "sum": 132000999
+    },
+    "tasks": 269,
+    "won": {
+      "number": 45,
+      "sum": 108000
+    },
+    "completedTasks": 115,
+    "lost": {
+      "number": 15,
+      "sum": 24000
+    },
+    "expiredTasks": 45,
+    "newIdeas": 115,
+    "noTasks": 10
+  },
+  "analytics?pipeline=sales": {
+    "leadsAndDeals": {
+      "number": 200,
+      "sum": 100000
+    },
+    "tasks": 20,
+    "won": {
+      "number": 10,
+      "sum": 100
+    },
+    "completedTasks": 444,
+    "lost": {
+      "number": 0,
+      "sum": 0
+    },
+    "expiredTasks": 5,
+    "newIdeas": 11,
+    "noTasks": 0
+  },
+  "analytics?pipeline=marketing": {
+    "leadsAndDeals": {
+      "number": 21,
+      "sum": 32
+    },
+    "tasks": 333,
+    "won": {
+      "number": 42,
+      "sum": 424
+    },
+    "completedTasks": 5000,
+    "lost": {
+      "number": 20,
+      "sum": 20
+    },
+    "expiredTasks": 35,
+    "newIdeas": 131,
+    "noTasks": 10
+  },
+  "analytics?pipeline=partners": {
+    "leadsAndDeals": {
+      "number": 210,
+      "sum": 31
+    },
+    "tasks": 330,
+    "won": {
+      "number": 2,
+      "sum": 0
+    },
+    "completedTasks": 12,
+    "lost": {
+      "number": 1,
+      "sum": 1
+    },
+    "expiredTasks": 2,
+    "newIdeas": 3,
+    "noTasks": 4
+  },
+  "analytics?period=month": {
+    "leadsAndDeals": {
+      "number": 1,
+      "sum": 2
+    },
+    "tasks": 3,
+    "won": {
+      "number": 2,
+      "sum": 4
+    },
+    "completedTasks": 89,
+    "lost": {
+      "number": 43,
+      "sum": 1777
+    },
+    "expiredTasks": 22,
+    "newIdeas": 33,
+    "noTasks": 44
+  },
+  "analytics?period=week": {
+    "leadsAndDeals": {
+      "number": 12,
+      "sum": 23
+    },
+    "tasks": 36,
+    "won": {
+      "number": 26,
+      "sum": 46
+    },
+    "completedTasks": 896,
+    "lost": {
+      "number": 436,
+      "sum": 17776
+    },
+    "expiredTasks": 226,
+    "newIdeas": 336,
+    "noTasks": 446
+  },
+  "analytics?period=yesterday": {
+    "leadsAndDeals": {
+      "number": 123,
+      "sum": 233
+    },
+    "tasks": 363,
+    "won": {
+      "number": 236,
+      "sum": 463
+    },
+    "completedTasks": 8396,
+    "lost": {
+      "number": 4336,
+      "sum": 177736
+    },
+    "expiredTasks": 2326,
+    "newIdeas": 3336,
+    "noTasks": 4436
+  },
+  "analytics?period=today": {
+    "leadsAndDeals": {
+      "number": 1203,
+      "sum": 2303
+    },
+    "tasks": 3603,
+    "won": {
+      "number": 2036,
+      "sum": 4603
+    },
+    "completedTasks": 86,
+    "lost": {
+      "number": 436,
+      "sum": 17736
+    },
+    "expiredTasks": 236,
+    "newIdeas": 336,
+    "noTasks": 436
+  },
+  "analytics?pipeline=sales&period=month": {
+    "leadsAndDeals": {
+      "number": 12,
+      "sum": 22
+    },
+    "tasks": 32,
+    "won": {
+      "number": 22,
+      "sum": 42
+    },
+    "completedTasks": 892,
+    "lost": {
+      "number": 432,
+      "sum": 17772
+    },
+    "expiredTasks": 222,
+    "newIdeas": 332,
+    "noTasks": 442
+  },
+  "analytics?pipeline=sales&period=week": {
+    "leadsAndDeals": {
+      "number": 112,
+      "sum": 231
+    },
+    "tasks": 16,
+    "won": {
+      "number": 26,
+      "sum": 46
+    },
+    "completedTasks": 1896,
+    "lost": {
+      "number": 4136,
+      "sum": 1776
+    },
+    "expiredTasks": 1226,
+    "newIdeas": 1336,
+    "noTasks": 1446
+  },
+  "analytics?pipeline=sales&period=yesterday": {
+    "leadsAndDeals": {
+      "number": 1223,
+      "sum": 2353
+    },
+    "tasks": 3673,
+    "won": {
+      "number": 2736,
+      "sum": 4673
+    },
+    "completedTasks": 6,
+    "lost": {
+      "number": 36,
+      "sum": 36
+    },
+    "expiredTasks": 26,
+    "newIdeas": 36,
+    "noTasks": 44
+  },
+  "analytics?pipeline=sales&period=today": {
+    "leadsAndDeals": {
+      "number": 3,
+      "sum": 3
+    },
+    "tasks": 3,
+    "won": {
+      "number": 36,
+      "sum": 43
+    },
+    "completedTasks": 6,
+    "lost": {
+      "number": 36,
+      "sum": 36
+    },
+    "expiredTasks": 36,
+    "newIdeas": 36,
+    "noTasks": 46
+  },
+  "analytics?pipeline=marketing&period=month": {
+    "leadsAndDeals": {
+      "number": 212,
+      "sum": 222
+    },
+    "tasks": 232,
+    "won": {
+      "number": 222,
+      "sum": 242
+    },
+    "completedTasks": 2892,
+    "lost": {
+      "number": 2432,
+      "sum": 217772
+    },
+    "expiredTasks": 2222,
+    "newIdeas": 2332,
+    "noTasks": 2442
+  },
+  "analytics?pipeline=marketing&period=week": {
+    "leadsAndDeals": {
+      "number": 11,
+      "sum": 23
+    },
+    "tasks": 1,
+    "won": {
+      "number": 2,
+      "sum": 4
+    },
+    "completedTasks": 189,
+    "lost": {
+      "number": 413,
+      "sum": 177
+    },
+    "expiredTasks": 122,
+    "newIdeas": 133,
+    "noTasks": 144
+  },
+  "analytics?pipeline=marketing&period=yesterday": {
+    "leadsAndDeals": {
+      "number": 223,
+      "sum": 353
+    },
+    "tasks": 673,
+    "won": {
+      "number": 736,
+      "sum": 673
+    },
+    "completedTasks": 68,
+    "lost": {
+      "number": 6,
+      "sum": 6
+    },
+    "expiredTasks": 6,
+    "newIdeas": 6,
+    "noTasks": 4
+  },
+  "analytics?pipeline=marketing&period=today": {
+    "leadsAndDeals": {
+      "number": 30,
+      "sum": 30
+    },
+    "tasks": 30,
+    "won": {
+      "number": 360,
+      "sum": 430
+    },
+    "completedTasks": 60,
+    "lost": {
+      "number": 360,
+      "sum": 360
+    },
+    "expiredTasks": 360,
+    "newIdeas": 360,
+    "noTasks": 460
+  },
+  "analytics?pipeline=partners&period=month": {
+    "leadsAndDeals": {
+      "number": 2120,
+      "sum": 222000
+    },
+    "tasks": 2320,
+    "won": {
+      "number": 2220,
+      "sum": 2420
+    },
+    "completedTasks": 28920,
+    "lost": {
+      "number": 24320,
+      "sum": 2177720
+    },
+    "expiredTasks": 22220,
+    "newIdeas": 23320,
+    "noTasks": 24420
+  },
+  "analytics?pipeline=partners&period=week": {
+    "leadsAndDeals": {
+      "number": 112,
+      "sum": 232
+    },
+    "tasks": 12,
+    "won": {
+      "number": 22,
+      "sum": 42
+    },
+    "completedTasks": 1895,
+    "lost": {
+      "number": 4135,
+      "sum": 1775
+    },
+    "expiredTasks": 1225,
+    "newIdeas": 1335,
+    "noTasks": 1445
+  },
+  "analytics?pipeline=partners&period=yesterday": {
+    "leadsAndDeals": {
+      "number": 23,
+      "sum": 53
+    },
+    "tasks": 63,
+    "won": {
+      "number": 76,
+      "sum": 6003
+    },
+    "completedTasks": 608,
+    "lost": {
+      "number": 0,
+      "sum": 2
+    },
+    "expiredTasks": 3,
+    "newIdeas": 4,
+    "noTasks": 5
+  },
+  "analytics?pipeline=partners&period=today": {
+    "leadsAndDeals": {
+      "number": 130,
+      "sum": 130
+    },
+    "tasks": 130,
+    "won": {
+      "number": 1360,
+      "sum": 1430
+    },
+    "completedTasks": 160,
+    "lost": {
+      "number": 1360,
+      "sum": 1360
+    },
+    "expiredTasks": 1360,
+    "newIdeas": 1360,
+    "noTasks": 1460
+  }
+}
