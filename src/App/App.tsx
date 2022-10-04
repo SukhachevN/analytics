@@ -1,17 +1,10 @@
 import { useEffect } from 'react';
-
+import { observer } from 'mobx-react-lite';
+import { reaction } from 'mobx';
 import { Dropdown } from '../components/Dropdown';
 import { dropdownItems, timePeriods } from '../utils/constants';
 import { TimePeriods } from '../components/TimePeriods';
-import {
-  store,
-  setPeriod,
-  setPipeline,
-  getAnalytics,
-  analytics,
-} from './store';
-import { observer } from 'mobx-react-lite';
-import { reaction } from 'mobx';
+import { store, setPeriod, setPipeline, getAnalytics } from './store';
 
 import './styles.scss';
 import 'antd/dist/antd.css';
