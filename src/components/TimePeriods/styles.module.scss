@@ -9,10 +9,9 @@
   }
 
   &__el {
+    @include cleanButton;
+
     color: $lightGray;
-    background: transparent;
-    border: none;
-    cursor: pointer;
 
     &:hover {
       color: $mediumGray;

@@ -1,44 +1,73 @@
 @import '../../utils/constants.scss';
 
 .dropdown {
-  @include center();
-  gap: toRem(4px);
-  font-size: toRem(14px);
-  color: $dropdownBlack;
-  text-transform: capitalize;
-  cursor: pointer;
-  height: toRem(21px);
+  display: flex;
+  gap: toRem(10px);
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
 
-  &_open {
-    svg {
-      transform: rotate(-180deg);
-      transition: 0.5s;
+  &__button {
+    @include center();
+    @include cleanButton;
+
+    height: toRem(30px);
+    gap: toRem(4px);
+    font-size: toRem(14px);
+    color: $dropdownBlack;
+    text-transform: capitalize;
+    cursor: pointer;
+
+    &_open {
+      svg {
+        transform: rotate(-180deg);
+        transition: 0.5s;
+      }
     }
   }
 
   &__overlay {
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
     width: toRem(167px);
+    height: 0;
+    bottom: 0;
+    transition: height 0.1s;
+    transform: translateY(100%);
 
-    ul {
+    &_open {
       height: toRem(182px);
       background: $white;
       box-shadow: 0px 0px 2px #eef4fe, 0px 1px 2px #d0daeb;
       border-radius: toRem(7px);
-      padding: 0;
     }
+  }
 
-    li {
-      background: $white;
-      height: toRem(34px);
+  &__ul {
+    list-style: none;
+  }
 
-      &:hover {
-        background: $dropdownHover;
-      }
-    }
+  &__li {
+    contain: content;
+    overflow: hidden;
+  }
 
-    span {
-      color: $dropdownBlack;
-      background: transparent;
+  &__el {
+    @include cleanButton;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    background: $white;
+    color: $dropdownBlack;
+    height: toRem(34px);
+
+    padding: toRem(16px);
+
+    &:hover {
+      background: $dropdownHover;
     }
   }
 }

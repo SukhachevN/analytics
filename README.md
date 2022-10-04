@@ -16,3 +16,8 @@
 - Использовать React, Typescript
 - Если используете state manager то только Mobx
 - Код выложить на гитхаб
+
+Как запустить:
+
+- yarn startServer (запустить json-server для мока бэкенда)
+- yarn dev
