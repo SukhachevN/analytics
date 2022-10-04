@@ -14,11 +14,25 @@
   max-width: $containerSize;
   margin: 0 auto;
   width: 100%;
-  padding: toRem(37px);
-  min-height: 100vh;
+  padding: toRem(37px) 0;
+  height: 100vh;
+
+  &_loading {
+    @include center;
+  }
 
   &__controls {
+    padding: 0 toRem(5px);
+    width: 100%;
     display: flex;
     justify-content: space-between;
   }
+}
+
+.error {
+  @include center;
+
+  color: $red;
+  height: toRem(200px);
+  font-size: toRem(20px);
 }

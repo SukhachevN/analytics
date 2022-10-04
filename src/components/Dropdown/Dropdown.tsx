@@ -15,7 +15,7 @@ type DropdownProps = {
 };
 
 const DropdownComponent: React.FC<DropdownProps> = memo(
-  ({ items, onChange, defaultValue = '' }) => {
+  ({ items, onChange, defaultValue = 'all' }) => {
     const [selectedItem, onClick] = useHandleClickItem({
       onChange,
       defaultValue,
@@ -45,7 +45,7 @@ const DropdownComponent: React.FC<DropdownProps> = memo(
             [styles.dropdown_open]: isDropdownOpen,
           })}
         >
-          {selectedItem || 'All Pipelines'} <Arrow />
+          {selectedItem !== 'all' ? selectedItem : 'All Pipelines'} <Arrow />
         </div>
       </Dropdown>
     );

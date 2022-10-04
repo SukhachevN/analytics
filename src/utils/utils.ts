@@ -8,13 +8,13 @@ type UseHandleClickItemParams = {
 
 export const useHandleClickItem = ({
   onChange,
-  defaultValue = '',
+  defaultValue = 'all',
 }: UseHandleClickItemParams): [StringOrNull, ChangeHandler] => {
   const [selectedItem, setSelectedItem] = useState<string>(defaultValue);
 
   const onClick = useCallback(
     (newVal: string) =>
-      setSelectedItem((state) => (state === newVal ? '' : newVal)),
+      setSelectedItem((state) => (state === newVal ? 'all' : newVal)),
     []
   );
 

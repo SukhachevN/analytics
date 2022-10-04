@@ -4,6 +4,10 @@
   display: flex;
   gap: toRem(40px);
 
+  @media (max-width: $smallScreen) {
+    flex-direction: column;
+  }
+
   &__el {
     color: $lightGray;
     background: transparent;

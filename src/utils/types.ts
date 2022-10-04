@@ -8,12 +8,18 @@ export type WithSum = {
 };
 
 export type Analytics = {
-  leadsAndDeals: WithSum;
-  tasks: number;
+  totalLeadsAndDeals: WithSum;
+  totalTasks: number;
   won: WithSum;
   completedTasks: number;
   lost: WithSum;
   expiredTasks: number;
-  newIdeas: number;
+  newLeads: number;
   noTasks: number;
+};
+
+export type AnalyticsRespsonse = {
+  pipeline: string;
+  period: string;
+  result: Analytics;
 };
