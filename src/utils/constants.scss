@@ -6,9 +6,15 @@ $dropdownHover: rgba(212, 219, 233, 25%);
 $lightGray: #aab7d4;
 $mediumGray: #7b8aab;
 $darkBlue: #3d8fec;
+$purple: #c37add;
+$green: #7ad744;
+$red: #f85c5c;
+$blue: #68c4ff;
+$lightBlack: rgba(0, 0, 0, 0.15);
 
 //breakpoints
 $containerSize: 1225px;
+$smallScreen: 600px;
 
 //mixins
 @mixin center {

@@ -17,7 +17,7 @@ type TimePeriodsProps = {
 };
 
 const TimePeriods: React.FC<TimePeriodsProps> = memo(
-  ({ times, onChange, defaultValue = '' }) => {
+  ({ times, onChange, defaultValue = 'all' }) => {
     const [selectedItem, onClick] = useHandleClickItem({
       onChange,
       defaultValue,
